@@ -18,27 +18,27 @@ public class App implements ActionListener
 
     public App() 
     {
-        frame = new JFrame("Simple Calculator");
+        frame = new JFrame("Simple Calculator- Edited by Avyam Srivastava");
         frame.setSize(500, 350);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         panel = new JPanel();
 
         // Input fields
-        JLabel l1 = new JLabel("First Number:");
+        JLabel l1 = new JLabel("Enter First Number:");
         t1 = new JTextField(10);
 
         JLabel l2 = new JLabel("Second Number:");
         t2 = new JTextField(10);
 
-        JLabel l3 = new JLabel("Result:");
+        JLabel l3 = new JLabel("Final Result:");
         tresult = new JTextField(10);
         tresult.setEditable(false);
 
         // Buttons
-        addBtn = new JButton("ADD");
-        subBtn = new JButton("SUBTRACT");
-        mulBtn = new JButton("MULTIPLY");
+        addBtn = new JButton("ADD(+)");
+        subBtn = new JButton("SUBTRACT(-)");
+        mulBtn = new JButton("MULTIPLY(*)");
         divBtn = new JButton("DIV");
         exitBtn = new JButton("EXIT");
 
